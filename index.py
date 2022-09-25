@@ -3,7 +3,7 @@ from flask import Flask
 from dotenv import load_dotenv
 load_dotenv()
 import os
-import MySQLdb
+from flask_mysqldb import MySQL
 
 app = Flask(__name__)
 
